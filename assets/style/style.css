@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+  padding: 16px;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.form {
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.registerbtn {
+  background-color: #4caf50;
+  color: white;
+  font-size: 17px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.name-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-name {
+  width: 45%;
+}
+
+.last-name {
+  width: 45%;
+}
+
+.email {
+  width: 100%;
+}
+
+.password {
+  width: 100%;
+}
+
+.confirm-password {
+  width: 100%;
+}
+
+.first-name,
+.last-name,
+.email,
+.password,
+.confirm-password {
+  margin: 11px 0;
+  line-height: 1.7;
+  font-size: 15px;
+  padding: 5px 5px 5px 5px;
+  text-align: left;
+}
+
+h1 {
+  margin: 1px;
+}
+
+p {
+  color: #757575;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
